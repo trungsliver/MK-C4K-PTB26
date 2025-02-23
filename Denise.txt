@@ -1,0 +1,18 @@
+Thông tin truy cập Denise
+
+Danh sách tài khoản học sinh đang học trong lớp
+
+1. Trần Bảo Hoàng:          24000872@mindx.edu.vn
+2. Trần Khôi Nguyên:        23005006@mindx.edu.vn
+3. Lê Gia Bách:             23005039@mindx.edu.vn
+4. Mai Hoàng Minh :         24000982@mindx.edu.vn
+5. Đào Duy An:              24000524@mindx.edu.vn
+6. Nguyễn Đăng Hoàng:       25000070@mindx.edu.vn
+7. Nguyễn Quốc Bảo:         22004108@mindx.edu.vn
+8. Nguyễn Đức Khiêm:        24000643@mindx.edu.vn
+9. Đỗ Minh Trí:             23005040@mindx.edu.vn
+10. Chu Ngọc Minh:          23003280@mindx.edu.vn
+
+Mật khẩu mặc định "Mindx@2024" dùng đăng nhập vào Denise theo liên kết https://base.mindx.edu.vn/login?callbackUrl=https://denise.mindx.edu.vn
+
+Trường học công nghệ MindX xin chân thành cảm ơn!
