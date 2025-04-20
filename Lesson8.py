@@ -93,4 +93,4 @@ for n in range (50, 101):
     if count == 2:
         print(n, end = ' ')
         sum += n
-print('\nTổng các snt:', sum)    
+print('\nTổng các snt:', sum)     
