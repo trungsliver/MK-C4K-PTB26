@@ -88,10 +88,46 @@ print(arr1)
 arr2 = [int(item) for item in arr]
 print(arr2)
 
+
 # -------------------------Luyện tập-----------------------
 # Bài 1: Nhập 2 thông tin: họ, tên. In ra màn hình tên đầy đủ
+ho = input('Nhập họ của bạn: ')
+ten = input('Nhập tên của bạn: ')
+arr = [ho, ten]
+full_name = ' '.join(arr)
+print(full_name)
+
 # Bài 2: Nhập vào 1 xâu ký tự định dạng dd/mm/yyyy (01/08/2024)
     # Tách ngày, tháng, năm và hiển thị ra màn hình
+date1 = input('Nhập chuỗi dạng dd/mm/yyyy: ')
+            # Cách 1: dùng slpit()
+x = date1.split('/')
+day = x[0]
+month = x[1]
+year = x[2]
+print("Ngày:", day, '\nTháng:', month, '\nNăm:', year)
+            # Cách 2: dùng replace()
+date2 = date1.replace('/', ' tháng ', 1)
+date3 = date2.replace('/', ' năm ')
+print(date3)
+
 # Bài 3: Nhập vào thông tin dạng username:password
     # kiểm tra xem thông tin vừa nhập có trùng với thông tin có sẵn
     # YC2: bắt người dùng nhập đến khi nào trùng username và password thì kết thúc
+username = 'admin'
+password = '123456'
+
+info = input('Nhập thông tin dạng "username:password": ')
+
+while (':' not in info):
+    print('Nhập sai định dạng, vui lòng nhập lại.')
+    info = input('Nhập thông tin dạng "username:password": ')
+
+info_split = info.split(':')
+while (info_split[0] != username or info_split[1] != password):
+    print('Nhập sai thông tin đăng nhập.')
+    info = input('Nhập thông tin dạng "username:password": ')
+    info_split = info.split(':')
+
+print('Đăng nhập thành công!')
+
